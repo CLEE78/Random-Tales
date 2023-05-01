@@ -1,9 +1,9 @@
 # Random-Tales
 import random
-who = ['a rabbit', 'a dog', 'a fox', 'a turtle','a cat','a bird']
-name = ['Marli', 'Dawn','James', 'Henry', 'Stryker']
-happened = ['made new acquaintances','Eats a pizza', 'found a lost watch', 'solved a problem', 'posted a blog']
+when = ['A few years ago', 'Yesterday', 'Last night', 'Awhile back','In March']
+who = ['a rabbit', 'an elephant', 'a mouse', 'a turtle','a cat']
+name = ['Allison', 'Mark','Danielle', 'Hawk', 'Stryker']
+location = ['Barcelona','India', 'Germany', 'Venice', 'England']
 went = ['cinema', 'university','seminar', 'school', 'laundry']
-residence = ['Bahamas','India', 'Germany', 'Venice', 'England']
-when = ['A few years ago', 'Yesterday', 'Last night', 'A long time ago','On 20th Jan']
-print(random.choice(who) + ', ' + random.choice(name) + ' that lived in ' + random.choice(happened) + ', went to the ' + random.choice(went) + ' and ' + random.choice(residence))
+occurred = ['made new acquaintances','ate a pizza', 'found a lost watch', 'solved a mistery', 'wrote a book']
+print(random.choice(when) + ', ' + random.choice(who) + ' that lived in ' + random.choice(residence) + ', went to the ' + random.choice(went) + ' and ' + random.choice(happened))
